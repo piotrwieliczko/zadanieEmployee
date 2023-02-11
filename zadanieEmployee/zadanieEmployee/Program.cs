@@ -26,18 +26,18 @@ if ((result1 > result2) && (result1 > result3))
 {
     firstPlace = result1;
     Console.WriteLine("Największą liczbę punktów zdobywa:");
-    Console.WriteLine(employee1.Name+" "+employee1.Surname+", wiek:"+employee1.Age+" lat.");
+    Console.WriteLine(employee1.Name+" "+employee1.Surname+", wiek:"+employee1.Age+" lat. Uzyskany wynik: "+result1 );
 }
 else if (result2 > result3)
 {
     firstPlace = result2;
     Console.WriteLine("Największą liczbę punktów zdobywa:");
-    Console.WriteLine(employee2.Name + " " + employee2.Surname + ", wiek:" + employee2.Age + " lat.");
+    Console.WriteLine(employee2.Name + " " + employee2.Surname + ", wiek:" + employee2.Age + " lat. Uzyskany wynik: " + result2);
 }
 else
 {
     firstPlace = result3;
     Console.WriteLine("Największą liczbę punktów zdobywa:");
-    Console.WriteLine(employee3.Name + " " + employee3.Surname + ", wiek:" + employee3.Age + " lat.");
+    Console.WriteLine(employee3.Name + " " + employee3.Surname + ", wiek:" + employee3.Age + " lat. Uzyskany wynik: " + result3);
 }
 
