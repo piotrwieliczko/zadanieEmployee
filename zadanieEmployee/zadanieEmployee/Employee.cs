@@ -28,7 +28,9 @@ namespace zadanieEmployee
             get { return score.Sum(); }
         }
 
-     
-
+        public void zmianaImienia(string noweImie)
+        {
+            this.Name = noweImie;
+        }
     }
 }
