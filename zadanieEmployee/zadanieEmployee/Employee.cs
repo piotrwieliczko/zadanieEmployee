@@ -1,5 +1,7 @@
 ﻿
 
+using Microsoft.Win32.SafeHandles;
+
 namespace zadanieEmployee
 {
     public class Employee
@@ -23,14 +25,21 @@ namespace zadanieEmployee
             this.score.Add(nummer);
         }
 
+        public void SubtractScore(int number)
+        {
+            int minusNumber = number * (-1);
+            this.score.Add(minusNumber);
+
+        }
+
         public int Result
         {
             get { return score.Sum(); }
         }
 
-        public void zmianaImienia(string noweImie)
+        public void changeName(string newName)
         {
-            this.Name = noweImie;
+            this.Name = newName;
         }
     }
 }

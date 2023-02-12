@@ -27,8 +27,7 @@ var result1 = employee1.Result;
 var result2 = employee2.Result;
 var result3 = employee3.Result;
 
-//metoda na zmianę imienia:
-employee3.zmianaImienia("Magda");
+
 
 
 int firstPlace;
@@ -70,3 +69,10 @@ foreach(var employee in uemployeers)
 }
 
 Console.WriteLine(employeeWithMaxResult.Name);
+
+
+//dodatkowe (własne)
+//metoda na zmianę imienia:
+string oldName = employee3.Name;
+employee3.changeName("Magda");
+Console.WriteLine("Nastąpiła zmiana imienia z: " + oldName + ", na: " + employee3.Name + ".");
