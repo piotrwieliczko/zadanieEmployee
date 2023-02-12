@@ -4,7 +4,7 @@ namespace zadanieEmployee.Tests
     {
 
         [Test]
-        public void Test1()
+        public void WhenChangeScore_ThenShowAndCompareResults()
         {
             //arrange
             Employee employee1 = new Employee("Szymon", "Misiêniechce", 11);
